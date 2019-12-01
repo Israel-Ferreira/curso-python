@@ -7,6 +7,8 @@ multiplicacao = a * b
 divisao =  a / b
 resto = a % b
 
+print("A soma é: {sum}; \n A subtração é {sub}".format(sum=soma, sub=subtracao))
+
 resultados = [
     {"operacao": "Soma", "valor": soma},
     {"operacao": "Subtracao","valor": subtracao},
